@@ -26,7 +26,7 @@ RegisterNumber:
 ```
 
 ## Sourcecode.java:
-
+```
 class Student {
     String name = "John";
     String address = "Chennai";
@@ -38,6 +38,7 @@ public class Test {
         System.out.println("Address: " + obj.address);
     }
 }
+```
 
 ## OUTPUT:
 Name: John
