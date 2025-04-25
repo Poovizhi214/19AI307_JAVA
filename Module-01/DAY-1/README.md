@@ -27,15 +27,21 @@ RegisterNumber:
 
 ## Sourcecode.java:
 
-
-
-
-
-
+class Student {
+    String name = "John";
+    String address = "Chennai";
+}
+public class Test {
+    public static void main(String[] args) {
+        Student obj = new Student();
+        System.out.println("Name: " + obj.name);
+        System.out.println("Address: " + obj.address);
+    }
+}
 
 ## OUTPUT:
-
-
+Name: John
+Address: Chennai
 
 ## RESULT:
 Thus, the class named 'Student' with String variable 'name' and String variable 'address' was created successfully.
