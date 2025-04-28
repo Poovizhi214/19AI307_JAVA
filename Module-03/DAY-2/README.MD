@@ -39,7 +39,7 @@ public class Main{
 ## OUTPUT:
 ~~~
 INPUT:Hello
-     JAVA
+     Java
 OUTPUT:Hello Java
 ~~~
 ## RESULT:
