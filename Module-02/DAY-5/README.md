@@ -1,4 +1,4 @@
-# Ex.No:2(E)  SMALLEST ELEMENT IN AN ARRAY
+# Ex.No:2(E)  LARGEST ELEMENT IN AN ARRAY
 
 ## AIM:
 To write a Java program that reads an array size and elements from the user and then finds and prints the largest element in the array.
@@ -50,7 +50,7 @@ INPUT:3 45 777 80
 OUTPUT:The largest element in the array is: 777
 ~~~
 ## RESULT:
-Thus the java program successfully reads the array size and elements from the user and correctly finds and prints the smallest number in the array.
+Thus the java program successfully reads the array size and elements from the user and correctly finds and prints the largest number in the array.
 
 
 
