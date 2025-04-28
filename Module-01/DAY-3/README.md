@@ -34,9 +34,7 @@ public class Demo
         if(num==0)
         System.out.println("Given number is Zero");
         else
-        {
-        	 System.out.println(num+ " is Non-Zero");
-        }
+        System.out.println(num+ " is Non-Zero");
     }
 }
 ~~~
