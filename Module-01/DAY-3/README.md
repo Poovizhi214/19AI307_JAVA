@@ -41,8 +41,6 @@ public class Demo
 }
 ~~~
 ## OUTPUT:
-INPUT:34
-OUTPUT:34 is Non-Zero
 INPUT:0
 OUTPUT:Given number is zero
 
