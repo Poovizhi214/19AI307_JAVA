@@ -16,10 +16,6 @@ a)	If the condition is true, print "true" using the 'print' method of 'System.ou
 b)	If the condition is false, print "false" using the 'print' method of 'System.out'
 9.	End
 
-
-
-
-
 ## PROGRAM:
  ```
 /*
@@ -30,7 +26,8 @@ RegisterNumber:
 ```
 
 ## Sourcecode.java:
-~~~import java.util.*;
+~~~
+import java.util.*;
 public class Demo
 {
     public static void main(String[] args){
@@ -39,7 +36,8 @@ public class Demo
     int b = sc.nextInt();
     System.out.println(a < 50 && a < b);
     }
-}~~~
+}
+~~~
 ## OUTPUT:
 Input:23,34
 Output:true
