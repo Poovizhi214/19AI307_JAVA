@@ -41,8 +41,8 @@ public class Demo
 }
 ~~~
 ## OUTPUT:
-/*INPUT:0
-OUTPUT:Given number is zero*/
+INPUT:0/n
+OUTPUT:Given number is zero
 
 ## RESULT:
 Thus, the Java program to check given number is zero or not was created successfully.
