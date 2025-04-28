@@ -48,7 +48,8 @@ class LeapYearChecker {
 }
 ~~~
 ## OUTPUT:
-~~~INPUT:2001
+~~~
+INPUT:2001
 OUTPUT:2001 is not a leap year.
 ~~~
 ## RESULT:
