@@ -53,6 +53,8 @@ INPUT:2001
 OUTPUT:2001 is not a leap year.
 ~~~
 ## RESULT:
-Thus the java program to display the addition number using private modifiers only was executed successfully.
+Thus the Java program to demonstrate the default access modifier and check if a year is a leap year was executed successfully.
+
+
 
 
