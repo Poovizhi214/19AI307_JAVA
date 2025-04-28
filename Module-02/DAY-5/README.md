@@ -17,7 +17,7 @@ To write a Java program that reads an array size and elements from the user and 
 ## PROGRAM:
  ```
 /*
-Program to implement a Smallest Element in an Array
+Program to implement a Largest Element in an Array
 Developed by: POOVIZHI P
 RegisterNumber:  212222020018
 */
