@@ -5,6 +5,7 @@ To create a Java program to print the area of a circle by defining an instance m
 [Class Name is ‘Circle’ function name is ‘calculateArea()’ and return type of function is ‘void’]
 
 ## ALGORITHM :
+~~~
 1.Start the program.
 2.Define a class named Circle.
 3.Declare a public method named calculateArea with no parameters.
@@ -17,7 +18,7 @@ d) Print the calculated area using the System.out.println statement
 6.Inside the main method:
 a) Create an instance of the Circle class called circleObj
 b) Call the calculateArea method on the circleObj object
-
+~~~
 ## PROGRAM:
  ```
 /*
@@ -46,5 +47,5 @@ public class Circle {
 Area of the circle 12.56
 
 ## RESULT:
-Thus, the Java program to print area of rectangle by defining instance method and local variable value as 10,20 was created successfully.
+Thus, the Java program to print the area of a circle by defining an instance method and using a local variable with value 2.0 was successfully created and executed, producing the correct output.
 
