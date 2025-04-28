@@ -3,6 +3,7 @@
 ## AIM:
 To develop a Java Program to demonstrate the Default Access Modifier and print whether the given year is a leap year or not.
 ## ALGORITHM :
+~~~
 1.Start the program.
 2.Define a class named LeapYearChecker.
 3.Declare an integer variable year with default access.
@@ -16,7 +17,7 @@ a) Create an instance of LeapYearChecker class.
 b) Call the setYear() method to assign a year. 
 c) Call the checkLeapYear() method.
 7.End.
-
+~~~
 ## PROGRAM:
  ```
 /*
