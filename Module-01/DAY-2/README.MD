@@ -30,16 +30,19 @@ RegisterNumber:
 ```
 
 ## Sourcecode.java:
-
-
-
-
-
-
-
+~~~import java.util.*;
+public class Demo
+{
+    public static void main(String[] args){
+    Scanner sc=new Scanner(System.in);
+    int a = sc.nextInt();
+    int b = sc.nextInt();
+    System.out.println(a < 50 && a < b);
+    }
+}~~~
 ## OUTPUT:
-
-
+Input:23,34
+Output:true
 
 ## RESULT:
 Thus, the Java program to get values of variables 'a' and 'b' and then check if both the conditions 'a < 50' and 'a < b' are true is created successfully.
