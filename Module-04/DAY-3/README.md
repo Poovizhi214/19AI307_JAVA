@@ -4,6 +4,7 @@
 To Create a Java program to implement super keyword in constructor.
 
 ## ALGORITHM :
+~~~
 1.Start the Program.
 2.Define class Animal:
 a)Define a constructor in the Animal class that prints "I am an animal".
@@ -14,7 +15,7 @@ c)Prints "I am a dog".
 4.Define the Main class with the main method:
 a)In the main method, create a Dog object dog1 which will invoke the constructors of both Animal and Dog.
 5.End the Program.
-
+~~~
 ## PROGRAM:
  ```
 /*
