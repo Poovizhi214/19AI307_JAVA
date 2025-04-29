@@ -2,6 +2,7 @@
 ## AIM:
 To implement a  Java Program to check is a string is palindrome or using has - a relationship.
 ## ALGORITHM :
+```
 1.Start the program.
 2.Create a class fun containing a static boolean method isPal(String s): 
 a. Base Case 1: If the length of the input string s is 0 or 1, return true .
@@ -15,7 +16,7 @@ c. Check the boolean value returned by obj.isPal(string):
 i. If the value is true, print the message: "string is a palindrome". 
 ii. If the value is false, print the message: "string is not a palindrome".
 5.End the program.
-
+```
 ## PROGRAM:
  ```
 /*
