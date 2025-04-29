@@ -12,30 +12,34 @@ To create a Java program using constructor to print the circumference of rectang
 5.	In `main`, create an object `sc` of the `circum` class
 6.	End
 
-
-
-
-
 ## PROGRAM:
  ```
 /*
 Program to implement a Constructor using Java
-Developed by: 
-RegisterNumber:  
+Developed by: POOVIZHI P 
+RegisterNumber:  212222020018
 */
 ```
 
 ## Sourcecode.java:
-
-
-
-
-
-
-
+~~~
+class circum {
+    int l = 5;
+    int w = 6;
+    circum() {
+        int circumference = 2 * (l + w); 
+        System.out.println("Area of First Rectangle: " + circumference);
+        System.out.println("Area of Second Rectangle: " + circumference);
+    }
+}
+public class Main {
+    public static void main(String[] args) {
+        circum sc = new circum(); 
+    }
+}
+~~~
 ## OUTPUT:
-
-
-
+Area of First Rectangle: 22
+Area of Second Rectangle: 22
 ## RESULT:
 Thus the Java program using constructor to print the circumference of rectangle was executed successfully.
