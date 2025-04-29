@@ -4,6 +4,7 @@
 To write a Java program that defines a Student class containing a student ID and an object of a Subject class which holds subject details.
 
 ## ALGORITHM :
+~~~
 1.Start the Program.
 2.Define class Subject:
 a)Declare instance variables sub1, sub2, sub3, and sub4 to store subject names.
@@ -17,7 +18,7 @@ c)Define method disp(int id)
 a)In the main method, create an object obj1 of the Student class.
 b)Call the disp() method of obj1, passing 101 as the argument to display the student ID and subject details.
 5.End the Program.
-
+~~~
 ## PROGRAM:
  ```
 /*
