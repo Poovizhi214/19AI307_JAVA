@@ -26,8 +26,6 @@ RegisterNumber:  212222020018
 import java.util.*;
 public class SetAndGet {
 private int ar;
-
-
 public void getarm() {
     int arm=0,a,temp;
     //int n=Integer.parseInt(ar);
@@ -46,18 +44,13 @@ public void getarm() {
 	
 }
 public void setarm(int ar) {
- 
-   this.ar=ar;
+      this.ar=ar;
 }
-
 public static void main(String args[]){
  Scanner sc=new Scanner(System.in);
  SetAndGet obj = new SetAndGet();
  int str=sc.nextInt();
-
- 
  obj.setarm(str);
- 
  obj.getarm();
 }
 }
