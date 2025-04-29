@@ -4,7 +4,7 @@ To write a parameterized constructor in the Employee class that initializes name
 
 ## ALGORITHM :
 ~~~
-	1.	Start the program.
+1.	Start the program.
 2.	Define a class Employee:
     a.	  Declare two private string variables: name and designation.
 3.	Create a parameterized constructor in Employee:
