@@ -4,48 +4,53 @@
 To Create a Java program to implement super keyword in constructor.
 
 ## ALGORITHM :
-1.  Start the Program.
-2.	Define class `College`:
--	a) Define method `display()` that prints "I am a Vehicle"
-3.	Define class `Student` that extends `College`:
--	a) Override method `display()` to print "I am a Car"
--	b) Define method `print()`:
--	i) Call `super.display()` to invoke `display()` from `College` class
--	ii) Call `this.display()` to invoke `display()` from `Student` class
-4.	Define `Main` class with `main` method:
--	a) Create a `Student` object `sc`
--	b) Call `sc.print()` to execute the `print()` method
-5.	End
-
-
-
-
-
-
+1.Start the Program.
+2.Define class Animal:
+a)Define a constructor in the Animal class that prints "I am an animal".
+3.Define class Dog that extends Animal:
+a)Define a constructor in the Dog class that:
+b)Calls the super() constructor to invoke the Animal class constructor.
+c)Prints "I am a dog".
+4.Define the Main class with the main method:
+a)In the main method, create a Dog object dog1 which will invoke the constructors of both Animal and Dog.
+5.End the Program.
 
 ## PROGRAM:
  ```
 /*
 Program to implement a Constructor Chaining using Java
-Developed by: 
-RegisterNumber:  
+Developed by: POOVIZHI P
+RegisterNumber:  212222020018
 */
 ```
 
 ## Sourcecode.java:
+~~~
+class Animal {
+   Animal() {
+      System.out.println("I am an animal");
+   }
+}
 
-
-
-
-
-
-
+class Dog extends Animal {
+   Dog() {
+      super();  
+      System.out.println("I am a dog");
+   }
+}
+public class Main {
+   public static void main(String[] args) {
+      Dog dog1 = new Dog();
+   }
+}
+~~~
 ## OUTPUT:
-
-
-
+~~~
+I am an animal
+I am a dog
+~~~
 ## RESULT:
-Thus the java program for constructor chaining was executed successfully.
+Thus the java program for constructor chaining using the super keyword was executed successfully.
 
 
 
