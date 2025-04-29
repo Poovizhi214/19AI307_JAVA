@@ -19,22 +19,37 @@
  ```
 /*
 Program to implement a IS-A RELATIONSHIP AND HAS-A RELATIONSHIP using Java
-Developed by: 
-RegisterNumber:  
+Developed by: POOVIZHI P
+RegisterNumber:  212222020018
 */
 ```
-
 ## Sourcecode.java:
-
-
-
-
-
-
-
+```
+import java.util.Scanner;
+class A {
+    private int n;
+    private int fact = 1;
+    public void factorial(int n) {
+        this.n = n; 
+        for (int i = 1; i <= n; i++) {
+            fact = fact * i; 
+        }
+        System.out.println("Factorial is: " + fact);
+    }
+}
+public class Main {
+    public static void main(String args[]) {
+        Scanner sc = new Scanner(System.in);
+        int n = sc.nextInt();
+        A obj = new A();
+        obj.factorial(n);
+    }
+}
+```
 ## OUTPUT:
-
-
-
+```
+INPUT:5
+OUTPUT:Factorial is 120
+```
 ## RESULT:
 Thus the java program to find factorial of number using class and object concepts and apply the has-a relationship was executed successfully.
