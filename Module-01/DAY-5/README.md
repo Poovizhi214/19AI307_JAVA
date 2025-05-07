@@ -34,26 +34,18 @@ public class Student {
         this.name = studentName;
     }
     public void displayDetails() {
-        System.out.println("Name: " + name);
-        System.out.println("Age: " + age);
+        System.out.println(Name+" "+age);
     }
     public static void main(String[] args) {
         Student.age = 18;
-        Student s1 = new Student("Alice");
-        Student s2 = new Student("Bob");
+        Student s1 = new Student("John");
         s1.displayDetails();
-        System.out.println();
-        s2.displayDetails();
     }
 }
 ~~~
 ## OUTPUT:
-~~~
-Name:Alice
-Age:18
-Name:Bob
-Age:18
-~~~
+![image](https://github.com/user-attachments/assets/8455c22e-809d-4725-a968-908bd34fcad1)
+
 ## RESULT:
 Thus, the Java program for the concept of using a static variable for shared data was correctly implemented and verified successfully. 
 
