@@ -50,10 +50,8 @@ public class Main{
 }
 ~~~
 ## OUTPUT:
-~~~
-INPUT:2 3 5 7 8 9 9 4
-OUTPUT:The sum of all values in the 2D array is: 42
-~~~
+![image](https://github.com/user-attachments/assets/be6bef22-d8ce-47a2-8d06-94a2e596c36b)
+
 ## RESULT:
 Thus the java program that returns the sum of all the values in a 2D array was executed successfully.
 
