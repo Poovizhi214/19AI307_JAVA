@@ -40,8 +40,7 @@ public class Test {
 ```
 
 ## OUTPUT:
-![Uploading image.png…]()
-
+![image](https://github.com/user-attachments/assets/0e6ad4bb-a96f-449f-94b0-418ac213b068)
 
 ## RESULT:
 Thus, the class named 'Student' with String variable 'name' and String variable 'address' was created successfully.
