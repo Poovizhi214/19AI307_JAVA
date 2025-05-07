@@ -45,10 +45,8 @@ public class Main{
 }
 ~~~
 ## OUTPUT:
-~~~
-INPUT:3 45 777 80
-OUTPUT:The largest element in the array is: 777
-~~~
+![image](https://github.com/user-attachments/assets/31a906dc-1a02-4602-a94d-6dc22d1f11fc)
+
 ## RESULT:
 Thus the java program successfully reads the array size and elements from the user and correctly finds and prints the largest number in the array.
 
