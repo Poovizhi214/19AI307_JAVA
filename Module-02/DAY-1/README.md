@@ -38,10 +38,8 @@ public class Main{
 }
 ~~~
 ## OUTPUT:
-~~~
-INPUT:5
-OUTPUT:Cube is 125
-~~~
+![image](https://github.com/user-attachments/assets/135a77be-8760-48c0-86da-08114a3992c6)
+
 ## RESULT:
 Thus the java program for calculate cube of a number using static method has been executed successfully.
 
