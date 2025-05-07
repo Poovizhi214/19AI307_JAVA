@@ -49,10 +49,7 @@ class LeapYearChecker {
 }
 ~~~
 ## OUTPUT:
-~~~
-INPUT:2001
-OUTPUT:2001 is not a leap year.
-~~~
+
 ## RESULT:
 Thus the Java program to demonstrate the default access modifier and check if a year is a leap year was executed successfully.
 
