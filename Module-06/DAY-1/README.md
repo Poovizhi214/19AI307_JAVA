@@ -37,6 +37,7 @@ RegisterNumber:
 
 
 ## OUTPUT:
+![image](https://github.com/user-attachments/assets/d794f483-c1bf-4f61-89ed-8d951734104c)
 
 
 
