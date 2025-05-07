@@ -44,7 +44,8 @@ public class Circle {
 }
 ~~~
 ## OUTPUT:
-Area of the circle 12.56
+![image](https://github.com/user-attachments/assets/4f519883-de18-4391-a8d2-1e85dd4bbac6)
+
 
 ## RESULT:
 Thus, the Java program to print the area of a circle by defining an instance method and using a local variable with value 2.0 was successfully created and executed, producing the correct output.
