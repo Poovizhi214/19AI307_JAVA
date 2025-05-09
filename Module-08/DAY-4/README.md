@@ -13,27 +13,34 @@
 7.	Close the BufferedInputStream and FileInputStream to release system resources.
 
 
-
-
 ## PROGRAM:
  ```
 /*
 Program to implement a Buffer Input/Output Stream using Java
-Developed by: 
-RegisterNumber:  
+Developed by: POOVIZHI P
+RegisterNumber: 212222020018 
 */
 ```
 
 ## Sourcecode.java:
-
-
-
-
-
-
-
+```
+FileOutputStream fout=new FileOutputStream("sample.txt");    
+BufferedOutputStream bout=new BufferedOutputStream(fout);  
+Scanner sc=new Scanner(System.in);
+String s=sc.nextLine();
+int index=sc.nextInt();
+int length=sc.nextInt();
+byte b[]=s.getBytes();    
+System.out.println("Original Data:" +s);
+System.out.print("After Skipping:");
+bout.write(b,index,length);    
+bout.close();    
+fout.close();    
+       
+```
 ## OUTPUT:
 
+![image](https://github.com/user-attachments/assets/a6e22b43-d4d8-49b0-88a7-1f0d06f7a6a5)
 
 
 ## RESULT:
