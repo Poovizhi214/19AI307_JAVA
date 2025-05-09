@@ -3,6 +3,7 @@
 To demonstrate the use of try-catch-finally blocks in handling ArrayIndexOutOfBoundsException in Java.
 
 ## ALGORITHM :
+```
 1.Start the program.
 2.Declare and initialize an integer array numbers with elements {1, 2, 3}.
 3.Enter the try block:
@@ -14,6 +15,7 @@ a)Print "Exception caught in catch block".
 6.Print "finally block executed" regardless of exception occurrence.
 7.Print "Outside try-catch-finally clause" after the try-catch-finally structure.
 8.End the program.
+```
 
 ## PROGRAM:
  ```
@@ -44,7 +46,7 @@ public class ArrayIndexOutOfBoundsExample {
 ```
 
 ## OUTPUT:
-
+https://github.com/Poovizhi214/19AI307_JAVA/blob/9a218aa5c2697ffafb5ba2be769cd397ac006510/Module-07/DAY-2/TRY%20CATCH.png
 
 
 ## RESULT:
