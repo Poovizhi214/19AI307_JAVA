@@ -24,22 +24,62 @@ b.	Call the methods to get input and display results.
  ```
 /*
 Program to implement a Multiple Inheritance
-Developed by: 
-RegisterNumber:  
+Developed by: POOVIZHI P
+RegisterNumber:  212222020018
 */
 ```
 
 ## Sourcecode.java:
 
-
-
-
-
-
+```
+import java.util.*;
+class Input{
+    static Scanner sc=new Scanner(System.in);
+}
+class Student{
+    String name,reg_no;
+    int m1,m2,m3,m4,m5;
+    public void get_details(){
+        name=Input.sc.next();
+        reg_no=Input.sc.next();
+    }
+}
+class Marks extends Student{
+    public void get_marks(){
+        m1=Input.sc.nextInt();
+        m2=Input.sc.nextInt();
+        m3=Input.sc.nextInt();
+        m4=Input.sc.nextInt();
+        m5=Input.sc.nextInt();
+    }
+}
+class Percentage extends Marks{
+    int total;
+    float per;
+    public void calc(){
+        total=m1+m2+m3+m4+m5;
+        per=(int)total/5;
+    }
+    public void display(){
+        System.out.println("Student Name is "+name);
+        System.out.println("Registeration Number is "+reg_no);
+        System.out.println("Total is "+total);
+        System.out.println("Percentage is "+(float)per);
+    }
+}
+public class Main{
+    public static void main(String[] args){
+        Percentage obj=new Percentage();
+        obj.get_details();
+        obj.get_marks();
+        obj.calc();
+        obj.display();
+    }
+}
+```
 
 ## OUTPUT:
-
-
+![image](https://github.com/user-attachments/assets/aff6aadc-42a8-4d82-ac4b-0c7efcfc5e8d)
 
 ## RESULT:
 
