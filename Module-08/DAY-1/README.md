@@ -22,17 +22,15 @@ RegisterNumber:  212222020018
 
 ## Sourcecode.java:
 ```
-   
-                 FileOutputStream fout=new FileOutputStream("testout.txt");    
-             String s="Welcome to Saveetha";    
-             byte b[]=s.getBytes();//converting string into byte array  
-             Scanner sc=new Scanner(System.in);
-             int start=sc.nextInt();
-             int length=sc.nextInt();
-           //  write(byte[] array, int start, int length)
-             fout.write(b,start,length);    
-             fout.close();    
-                 System.out.println("Successfully Completed");  
+FileOutputStream fout=new FileOutputStream("testout.txt");
+String s="Welcome to Saveetha";    
+byte b[]=s.getBytes();//converting string into byte array
+Scanner sc=new Scanner(System.in);
+int start=sc.nextInt();
+int length=sc.nextInt();
+fout.write(b,start,length);    
+fout.close();    
+System.out.println("Successfully Completed");  
                  
  ```        
 
