@@ -16,20 +16,39 @@
  ```
 /*
 Program to implement a String Reader using Java
-Developed by: 
-RegisterNumber:  
+Developed by: POOVIZHI P
+RegisterNumber: 212222020018 
 */
 ```
 
 ## Sourcecode.java:
-
-
-
-
-
-
-
-## OUTPUT:
+```
+import java.io.StringReader;
+import java.util.*;
+public class Main{
+    public static void main(String[] args){
+        Scanner sc=new Scanner(System.in);
+        String data=sc.nextLine();
+        System.out.println("Original data: " + data);
+        int s=sc.nextInt();
+        try{
+            int k=0;
+            StringReader input=new StringReader(data);
+            input.skip(s);
+            System.out.println("Data after skipping "+s+" characters:");
+            while((k=input.read())!=-1){
+                System.out.print((char)k);
+            }
+            input.close();
+        }
+        catch(Exception e){
+            e.getStackTrace();
+        }
+    }
+}
+```
+# OUTPUT:
+![image](https://github.com/user-attachments/assets/5fc12d5e-0c0d-4843-b6a7-903c5b5d3ab2)
 
 
 
