@@ -14,8 +14,8 @@
  ```
 /*
 Program to implement a ARRAY LIST using Java
-Developed by: 
-RegisterNumber:  
+Developed by: POOVIZHI P 
+RegisterNumber: 212222020018 
 */
 ```
 
