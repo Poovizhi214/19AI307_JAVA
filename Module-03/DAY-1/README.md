@@ -32,10 +32,8 @@ public class demo {
 }
 ~~~
 ## OUTPUT:
-~~~
-INPUT:pot
-OUTPUT:The size of the String is 3
-~~~
+![image](https://github.com/user-attachments/assets/ca7b2344-98db-405e-8204-ee66020dd204)
+
 ## RESULT:
 Thus the java Program to read input and print length of the string in java was executed successfully.
 
