@@ -38,10 +38,8 @@ public class Main{
 }
 ~~~
 ## OUTPUT:
-~~~
-Input:College
-OUTPUT:CJavalege
-~~~
+![image](https://github.com/user-attachments/assets/18a143c4-6144-4175-bc4c-745adf92a2c8)
+
 ## RESULT:
 Thus the java program use replace() method replaces the given String from the specified beginIndex and endIndex and use stringbuilder was executed successfully.
 
