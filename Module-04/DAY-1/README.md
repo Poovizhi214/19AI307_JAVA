@@ -39,9 +39,7 @@ public class Main {
 }
 ~~~
 ## OUTPUT:
-~~~
-Area of First Rectangle: 22
-Area of Second Rectangle: 22
-~~~
+![image](https://github.com/user-attachments/assets/df4b6e49-f01a-47dc-aa57-77fc11021628)
+
 ## RESULT:
 Thus the Java program using constructor to print the circumference of rectangle was executed successfully.
