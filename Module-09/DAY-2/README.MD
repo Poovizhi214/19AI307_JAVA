@@ -50,7 +50,7 @@ public class Main {
 }
 ```
 ## OUTPUT:
-
+https://github.com/Poovizhi214/19AI307_JAVA/blob/d21700ef07f51ba7051a42ed09ffb79e913f9b0d/Module-09/DAY-2/BYTE%20ARRAY.png
 
 
 ## RESULT:
