@@ -52,12 +52,8 @@ public class ArrayProgram {
 }
 ```
 ## OUTPUT:
-```
-INPUT:MADAM
-OUTPUT:MADAM is a palindrome
-INPUT:TRY
-OUTPUT:TRY is not a palindrome
-```
+![image](https://github.com/user-attachments/assets/29632144-c2d7-4359-92ab-13a5e9b4814e)
+
 ## RESULT:
 Thus the java program to check the given string is palindrome or not using has - a relationship was executed successfully. 
 
