@@ -39,9 +39,7 @@ public class Main{
 ~~~
 
 ## OUTPUT:
-~~~
-Welcome to java
- programming
-~~~
+![image](https://github.com/user-attachments/assets/e00f5c8b-855e-4767-b005-7f075d0dac38)
+
 ## RESULT:
 Thus the java program using StringTokenizer class that tokenizes a string "Welcome to java#programming" on the basis of #  was executed successfully.
