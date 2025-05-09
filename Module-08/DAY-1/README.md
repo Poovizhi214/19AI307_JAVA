@@ -15,14 +15,26 @@ To implement a Java Program to write a String in a file "testout.txt" using File
  ```
 /*
 Program to implement a IO File Stream using Java
-Developed by: 
-RegisterNumber:  
+Developed by: POOVIZHI P
+RegisterNumber:  212222020018
 */
 ```
 
 ## Sourcecode.java:
-
-
+```
+   
+                 FileOutputStream fout=new FileOutputStream("testout.txt");    
+             String s="Welcome to Saveetha";    
+             byte b[]=s.getBytes();//converting string into byte array  
+             Scanner sc=new Scanner(System.in);
+             int start=sc.nextInt();
+             int length=sc.nextInt();
+           //  write(byte[] array, int start, int length)
+             fout.write(b,start,length);    
+             fout.close();    
+                 System.out.println("Successfully Completed");  
+                 
+ ```        
 
 
 
@@ -30,6 +42,7 @@ RegisterNumber:
 
 ## OUTPUT:
 
+![image](https://github.com/user-attachments/assets/4f3ecbab-2281-4d60-a686-e065f4e266b0)
 
 
 ## RESULT:
