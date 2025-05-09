@@ -15,7 +15,7 @@ To implement a Java program that writes a string "Hi Everybody...Welcome all" to
 /*
 Program to implement a IO File Reader/Writer using Java
 Developed by: POOVIZHI P
-RegisterNumber:  212222020018
+RegisterNumber: 212222020018
 */
 ```
 
@@ -28,7 +28,7 @@ w.close();
 System.out.println("Wrote File Successfully");  
 ```
 ## OUTPUT:
-
+https://github.com/Poovizhi214/19AI307_JAVA/blob/3936ed22b779bbacd70f38d3da5011e68e704095/Module-08/DAY-2/filewriter.png
 
 
 ## RESULT:
