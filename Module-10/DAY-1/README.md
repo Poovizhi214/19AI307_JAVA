@@ -1,6 +1,6 @@
 # Ex.No:10(A)         JAVA COLLECTION FRAMEWORK –ARRAY LIST
 ## AIM:
- To Create a Java Program to store n numbers (add elements of type Integer) and then display the n numbers using array List.
+ To Create a Java Program to store n elements(add elements of type String) and then display the n elements using array List.
 
 ## ALGORITHM:
 1.import java.util.* package.
@@ -44,5 +44,5 @@ public class Main{
 
 
 ## RESULT:
-TThus the Java Program to store n numbers (add elements of type Integer) and then display the n numbers using array List was executed successfully.
+TThus the Java Program to store n elements and then display the n elements using array List was executed successfully.
 
