@@ -1,41 +1,38 @@
 # Ex.No:8(B) IO-FILE READER/WRITER
 ## AIM:
-To create a java program to append a NUMBER in a file “testout.txt” using Writer.
+To implement a Java program that writes a string "Hi Everybody...Welcome all" to a file named testout.txt using the Writer class, and demonstrate handling of file I/O exceptions.
 
 
 ## ALGORITHM :
-1.	It creates a file testout.txt, writes "Welcome to Java File Concept -Reader" to it, and displays this initial content.
-2.	It reopens the file in append mode and adds "1234567890" at the end of the existing content.
-3.	It reads the file's content (Welcome to Java File Concept -Reader1234567890) and displays it.
-4.	The file is deleted using file.delete().
-5.	It tries to read the file again, but this throws an exception since the file no longer exists.
-
-
-
-
+1.Import required I/O classes (java.io.*).
+2.Create a FileWriter or Writer object pointing to "testout.txt".
+3.Write the string "Hi Everybody...Welcome all" to the file.
+4.Close the writer stream.
+5.Optionally try writing again after closing the stream to simulate the Stream Closed exception.
+6.Handle exceptions using a try-catch block.
 ## PROGRAM:
  ```
 /*
 Program to implement a IO File Reader/Writer using Java
-Developed by: 
-RegisterNumber:  
+Developed by: POOVIZHI P
+RegisterNumber:  212222020018
 */
 ```
 
 ## Sourcecode.java:
-
-
-
-
-
-
-
+```
+Writer w = new FileWriter("testout.txt");  
+String content = "Hi Everybody...Welcome all";  
+w.write(content);  
+w.close();  
+System.out.println("Wrote File Successfully");  
+```
 ## OUTPUT:
 
 
 
 ## RESULT:
-Thus, the java program to append a NUMBER in a file “testout.txt” using Writer.was executed and verified successfully
+Thus, the java program to append a string in a file “testout.txt” using Writer.was executed and verified successfully
 
 
 
