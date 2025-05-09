@@ -60,11 +60,7 @@ public class EmployeMain {
 }
 ~~~
 ## OUTPUT:
-~~~
-INPUT:SAVEETHA
-      CHENNAI
-OUTPUT:SAVEETHA
-      CHENNAI
-~~~
+![image](https://github.com/user-attachments/assets/c150dcc5-4b4b-4e87-a550-80a8dcd9b2e9)
+
 ## RESULT:
 Thus , the  java program to display name and location of the employee and use the encapsulation concepts executed successfully.
