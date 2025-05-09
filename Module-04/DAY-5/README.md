@@ -35,13 +35,18 @@ RegisterNumber:  212222020018
 ~~~
 class Employee {
     private String name;
+    private int age;
     private String designation;
     Employee(String name, String designation) {
         this.name = name;
+        this.age=age;
         this.designation = designation;
     }
     public String getName() {
         return name;
+    }
+    public String getAge(){
+        return age;
     }
     public String getDesg() {
         return designation;
@@ -49,20 +54,20 @@ class Employee {
 }
 public class Sample {
     public static void main(String[] args) {
-        Employee emp = new Employee("John", "Asst.Manager");
+        Employee emp = new Employee("Robert",35, "Senior developer");
         String empName = emp.getName();
+        String empAge = emp.getAge();
         String empDesg = emp.getDesg();
-        System.out.println("Employee Name: " + empName);
-        System.out.println("Employee Designation: " + empDesg);
+        System.out.println("Name is: " + empName);
+        System.out.println("Age is:"+empAge);
+        System.out.println("Designation is: " + empDesg);
     }
 }
 ~~~
 
 ## OUTPUT:
-~~~
-Employee Name: John
-Employee Designation: Asst.Manager
-~~~
+![image](https://github.com/user-attachments/assets/220178c4-e9f5-4e3c-b9ec-85822f689047)
+
 
 ## RESULT:
 Thus, the  java program was successfully demonstrates the use of a parameterized constructor to initialize class fields.
