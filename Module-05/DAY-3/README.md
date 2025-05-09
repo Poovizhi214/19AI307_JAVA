@@ -51,10 +51,8 @@ public class Main {
 ~~~
 
 ## OUTPUT:
-```
-INPUT:5 5
-OUTPUT:The sum is 10
-```
+![image](https://github.com/user-attachments/assets/cc0f0fc5-822c-4438-a902-71d76b4a1ee7)
+
 ## RESULT:
 Thus the java program to print the sum of two number using getter and setter method was executed successfully.
 
