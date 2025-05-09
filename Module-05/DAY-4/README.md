@@ -47,9 +47,8 @@ public class Main {
 }
 ```
 ## OUTPUT:
-```
-INPUT:5
-OUTPUT:Factorial is 120
-```
+
+![image](https://github.com/user-attachments/assets/a24a74df-d7a0-4651-9d5a-52506dfdb4bc)
+
 ## RESULT:
 Thus the java program to find factorial of number using class and object concepts and apply the has-a relationship was executed successfully.
