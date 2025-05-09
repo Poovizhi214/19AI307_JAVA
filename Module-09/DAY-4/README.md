@@ -10,28 +10,31 @@
 4.	Print employee name and designation (designation is null due to transient).
 5.	Delete File: Delete emp.txt and handle any exceptions while trying to read it.
 
-
-
-
 ## PROGRAM:
  ```
 /*
 Program to implement a Transient using Java
-Developed by: 
-RegisterNumber:  
+Developed by: POOVIZHI P 
+RegisterNumber: 212222020018
 */
 ```
 
 ## Sourcecode.java:
 
-
-
-
-
-
+```
+class Employeeinfo implements Serializable{
+    String name;
+    transient String desi;
+    Employeeinfo(String a,String b){
+        this.name=a;
+        this.desi=b;
+    }
+}
+```
 
 ## OUTPUT:
 
+![image](https://github.com/user-attachments/assets/499de189-5775-4e66-9295-eeaac6d35110)
 
 
 ## RESULT:
