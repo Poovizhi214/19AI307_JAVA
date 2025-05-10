@@ -55,7 +55,7 @@ public class Mapp{
 
 ## OUTPUT:
 
-
+https://github.com/Poovizhi214/19AI307_JAVA/blob/ae981be7b42ecae8a01a93eb355a9af853619376/Module-11/DAY-2/hashmap.png
 
 
 ## RESULT:
