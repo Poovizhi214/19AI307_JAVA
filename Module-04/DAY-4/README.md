@@ -1,24 +1,15 @@
 # Ex.No:4(D) FINAL & STATIC IN JAVA
 
 ## AIM:
-   To create a Java program to perform final & static keyword for below situation Employee object contains member 'Emp_Id'. It contains object named name, which contains its own informations such as Fname, Mname, Lname.
+   To create a Java program to perform final & static keyword for below situation Employee object contains member 'name'. It contains object named name, which contains its own informations such as address.
  
 ## ALGORITHM :
-1.	Start the Program.
-2.	Define class `Name`:
--	a) Declare three `String` variables: `Fname`, `Mname`, and `Lname`
--	b) Define method `dispName(String fn, String mn, String ln)`:
--	i) Print the full name using the passed parameters `fn`, `mn`, and `ln`
-3.	Define class `Employee`:
--	a) Declare an integer variable `Emp_Id`
--	b) Create an instance of `Name` called `obj`
--	c) Define method `disp(int id)`:
--	i) Print the employee ID
--	ii) Create a new `Name` object and call `dispName("B", "Leo", "John")` to display the name
-4.	Define `Main` class with `main` method:
--	a) Create an `Employee` object `emp`
--	b) Call `emp.disp(101)` to display the employee details
-5.	End
+1. Define class Address with fields and method dispAddr() to display address.
+2. Define class Employee with a name field and an Address object.
+3. In dispName(), print the name and call dispAddr() with address details.
+4. In main(), create Employee object and call dispName("Leo").
+5. Program prints employee name and address.
+6. End
 
 ## PROGRAM:
  ```
@@ -31,38 +22,45 @@ RegisterNumber: 212222020018
 
 ## Sourcecode.java:
 ~~~
-class Name {
-    String Fname, Mname, Lname;
-    void dispName(String fn, String mn, String ln) {
-        Fname = fn;
-        Mname = mn;
-        Lname = ln;
-        System.out.println("Full Name: " + Fname + " " + Mname + " " + Lname);
+class Address
+{
+    int doorno;
+    String street;
+    String city;
+    void dispAddr(int d_no,String st,String City)
+    {
+        this.doorno=d_no;
+        this.street=st;
+        this.city=City;
+        System.out.println(doorno+","+street+","+city);
     }
 }
-class Employee {
-    int Emp_Id; 
-    Name obj = new Name();  
-    void disp(int id) {
-        Emp_Id = id;
-        System.out.println("Employee ID: " + Emp_Id);  
-        obj.dispName("B", "Leo", "John"); 
+class Employee
+{
+    String name;
+    Address addr=new Address();
+    void dispName(String s)
+    {
+        this.name=s;
+        System.out.println(name);
+        addr.dispAddr(10,"100 Feet Road","Chennai");
     }
 }
 
-public class Main {
-    public static void main(String[] args) {
-        Employee emp = new Employee();
-        emp.disp(101);  
+public class Main
+{
+    public static void main(String[] args)
+    {
+        Employee obj=new Employee();
+        obj.dispName("Leo");
+        
     }
 }
 ~~~
 
 ## OUTPUT:
-~~~
-Employee ID: 101
-Full Name: B Leo John
-~~~
+![image](https://github.com/user-attachments/assets/64722dfd-36d5-4039-b725-03e98237b12a)
+
 
 ## RESULT:
 Thus, the java program to perform final & static keyword was executed successfully.
