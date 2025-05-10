@@ -49,7 +49,7 @@ class LeapYearChecker {
 }
 ~~~
 ## OUTPUT:
-
+https://github.com/Poovizhi214/19AI307_JAVA/blob/a7edd22e1b02a531b6b26179049a532ae29568ca/Module-02/DAY-2/Access%20mod.png
 ## RESULT:
 Thus the Java program to demonstrate the default access modifier and check if a year is a leap year was executed successfully.
 
