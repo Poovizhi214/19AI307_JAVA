@@ -68,10 +68,8 @@ public class Main
 }
 ~~~
 ## OUTPUT:
-~~~
-101
-Java DS TOC CG
-~~~
+
+
 ## RESULT:
 The Java program correctly displays the student ID and the subjects for a given student was executed successfully.
 
