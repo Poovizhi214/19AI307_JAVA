@@ -38,6 +38,7 @@ public class Main{
 }
 ~~~
 ## OUTPUT:
+https://github.com/Poovizhi214/19AI307_JAVA/blob/7d0ee919094ab53244bfb054a3a80096c8d4ea6b/Module-03/DAY-2/append.png
 
 ## RESULT:
 Thus the java program use append() method concatenates the given argument with this String and use stringbuffer class was executed successfully.
