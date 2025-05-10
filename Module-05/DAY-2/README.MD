@@ -56,10 +56,8 @@ public static void main(String args[]){
 }
 ~~~
 ## OUTPUT:
-~~~
-INPUT:153
-OUTPUT:153 is a armstrong number
-~~~
+https://github.com/Poovizhi214/19AI307_JAVA/blob/fbbc45f0be8d55f276fff6198dcab1c504fbc2ac/Module-05/DAY-2/armstrong.png
+
 ## RESULT:
 Thus a java program to display the value of volume of cylinder get the radius and height value as input and use tightly encapsulated class was executed successfully.
 
