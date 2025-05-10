@@ -46,10 +46,8 @@ public class Main {
 }
 ~~~
 ## OUTPUT:
-~~~
-I am an animal
-I am a dog
-~~~
+![image](https://github.com/user-attachments/assets/44180844-b2f0-4ddd-b7bd-02214e373ccb)
+
 ## RESULT:
 Thus the java program for constructor chaining using the super keyword was executed successfully.
 
