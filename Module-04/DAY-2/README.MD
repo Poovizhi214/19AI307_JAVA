@@ -69,6 +69,7 @@ public class Main
 ~~~
 ## OUTPUT:
 
+https://github.com/Poovizhi214/19AI307_JAVA/blob/89c3c89e78566cebab3a48261df7f1db4910564c/Module-04/DAY-2/javainheritance.png
 
 ## RESULT:
 The Java program correctly displays the student ID and the subjects for a given student was executed successfully.
