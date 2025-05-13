@@ -53,7 +53,7 @@ public class Main{
 
 ## RESULT:
 
-Thus the java program to create vector and read the elements for two vector in java collection.(Use equals method ) was executed successfully.
+Thus the java program java program to read and print the elements  and to fetching the specific element from the index of 3 using vector in java collection.(Use elementAt() method)
 
 
 
