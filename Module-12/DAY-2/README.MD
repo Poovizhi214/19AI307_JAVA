@@ -53,7 +53,7 @@ public class ComparableExample {
 
 ## OUTPUT:
 
-
+https://github.com/Poovizhi214/19AI307_JAVA/blob/48393a82ceabc5723fc672ffb0c6bafe9b9afd90/Module-12/DAY-2/COMPARATOR.png
 
 ## RESULT:
 Thus the java program to compare two elements , if element is greater means display 1 otherwise display -1 use only comparable interface in java collection was executed successfully
